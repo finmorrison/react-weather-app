@@ -1,22 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Weather app</h1>
+        <h3>Weather app to get the current weather in a city</h3>
+        <ul>
+          <li>
+            Features: Search for weather by city, display current weather and
+            forecast, handle errors for invalid city names.
+          </li>
+          <li>
+            Key Concepts: Fetching data from APIs, using useEffect for side
+            effects, managing state with hooks, conditional rendering.
+          </li>
+        </ul>
       </header>
     </div>
   );
