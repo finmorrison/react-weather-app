@@ -1,4 +1,5 @@
 import "./App.css";
+import LocationInput from "./Location/LocationInput";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           </li>
         </ul>
       </header>
+      <LocationInput />
     </div>
   );
 }
